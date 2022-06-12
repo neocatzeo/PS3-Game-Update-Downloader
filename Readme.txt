@@ -34,7 +34,7 @@ You need write permissions to the programs folder since it dumps everything into
 
 Open source:
 The source code is provided, written in Dark Basic Professional 1.077
-
+https://github.com/neocatzeo/PS3-Game-Update-Downloader
 
 Liability:
 This program is provided as is without warranty.  You are free to use and distribute as you see fit.  Please include the original files.
