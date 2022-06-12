@@ -2,9 +2,13 @@ PS3 Update Downloader
 -=-=-=-=-=-=-=-=-=-=-
 
 written by neocatzeo
+
 https://www.youtube.com/user/neocatzeo
+
 twitter: @neocatzeo
+
 Date: June 12 2022
+
 Version 1.0
 
 
