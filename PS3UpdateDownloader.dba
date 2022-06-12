@@ -1,0 +1,490 @@
+Rem Project: PS3UpdateDownloader
+Rem Created: Saturday, June 11, 2022
+Rem Written by neocatzeo
+Rem ***** Main Source File *****
+rem Using suggestions found here: https://forum.thegamecreators.com/thread/39937
+Global Version$ = "1.0"
+Dim logXMLFailList(1) as string
+Global logXMLFailList_Count as integer
+Global logXMLFailList_Size as integer
+
+Dim logURLFailList(1) as string
+Global logURLFailList_Count as integer
+Global logURLFailList_Size as integer
+
+Dim codeList(1) as string
+Global codeList_Count as integer
+Global codeList_Size as integer
+
+Global rootPath as String
+rootPath = Get Dir$()
+
+`Setup screen window refresh.
+sync on : sync rate 0
+
+`Init the timer.
+oStartTime = Timer()
+`Setup the logging
+
+
+Log_Init()
+Log_Update("Neocatzeo's PS3 Update Package Downloader")
+Log_Update("Version: " + Version$)
+Log_Update(Get Date$() + ":" + Get Time$())
+Log_Update("")
+
+`Load list of game ids
+Game_CodeListBuild()
+
+`Begin processing game codes.
+Game_BuildAll()
+
+`Log the error reports.
+Log_reportXMLFail()
+Log_ReportURLFail()
+
+`Finish the log.
+Log_Update("")
+oStartTime = (Timer() - oStartTime) / 1000 
+Log_Update("Processing complete. " + str$(oStartTime) + " seconds.")
+Log_Close() 
+
+`Add a delay before exiting app.
+Print ""
+Print "See log.txt for details."
+Print "Press any key to exit."
+sync
+sync
+wait key
+End
+ 
+
+`This function will download a given file url to a given dir path
+function File_Download(oUrl$, oPath$, oFileSize)
+   retVal = 0
+   oFlag = 0
+   `Get file name from url
+   oFileName$ = oPath$ + "\" + File_FileNameExtract(oUrl$)
+   Log_Update("Downloading: " + oUrl$)
+   
+   `If the file name is valid, proceed
+   If File_FileNameExtract(oUrl$) <> ""
+      Repeat
+         `Check if file exists
+         If File Exist(oFileName$) = 1
+            If File Size(oFileName$) = oFileSize
+               `Skip the file as the existing file appears to be present and complete.
+               Log_Update("Error:  Skipping file, already exists. " + STR$(oFileSize) + " bytes." )
+               `Set flags
+               retVal = 1
+               oFlag = 100
+               `Exitfunction and passs success
+               ExitFunction retVal
+            Else
+               `Existing file appears incomplete.  Delete it.
+               Delete File oFileName$
+            EndIf
+         EndIf
+         `Call Windows API to download the URL
+         LOAD DLL "urlmon",1
+         a=CALL DLL(1,"URLDownloadToFileA",0,oUrl$,oFileName$,0,0)
+         DELETE DLL 1
+         `Determine if file exists
+         If File Exist(oFileName$) = 1
+            `Determine if file size matches size in XML Manifest.
+            If File Size(oFileName$) = oFileSize
+               `Set flags
+               retVal = 1
+               oFlag = 100
+               `log successful download
+               Log_Update("Download complete.")
+               `exit download function
+               ExitFunction retVal
+            Else
+               `size mismatch so the download must have been cut off or the XML file lied?
+               Log_Update("Error File Size: " + Str$(File Size(oFileName$)) + " should be " + STR$(oFileSize) + ".")
+            EndIf 
+            `no file was created at all.  log failure.
+            Log_Update("Error Download Failed: " + oFileName$)
+         EndIf
+         
+         `Increment flag counter.  We will retry to a total of 10 attempts.  so the program doesn't get stuck.
+         oFlag = oFlag + 1
+         If oFlag < 9
+            `log a retry attempt.
+            Log_Update("Retrying Download. Attempt " + Str$(oFlag + 1) + " out of 10.")
+         EndIf
+      Until oFlag > 9
+   Endif
+   `report complete failure.
+   Log_Update("Error: Download failed.  Aborting.")
+   `log url failure.
+   Log_AddURLFail(oURL$)
+   `Clean up any empty or incomplete file.
+   If File Exist(oFileName$) = 1 Then Delete File oFileName$
+EndFunction retVal
+
+`Removes filename from a path name.
+Function File_FileNameExtract(oPath$)
+   oNum = 0
+   For i = 1 to LEN(oPath$) - 1
+      If MID$(oPath$, i) = "\" then oNum = i
+      If MID$(oPath$, i) = "/" then oNum = i
+   Next i
+   If oNum = 0
+      oPath$ = ""
+   Else
+      oPath$ = RIGHT$(oPath$, LEN(oPath$) - (oNum))  
+   EndIf
+EndFunction oPath$
+
+`Removes filename from a path name.
+Function File_PathExtract(oPath$)
+   oNum = 0
+   For i = 1 to LEN(oPath$) - 1
+      If MID$(oPath$, i) = "\" then oNum = i
+   Next i
+   If oNum = 0
+      oPath$ = ""
+   Else
+      oPath$ = LEFT$(oPath$, oNum - 1)  
+   EndIf
+EndFunction oPath$
+
+`Adds a Game ID to a list of ID's to later be processed.
+Function Game_CodeListAdd(oGameCode$)
+   `Abort if line is commented in file.
+   If LEFT$(oGameCode$, 1) = "#" Then ExitFunction
+   `Abort if empty string
+   If oGameCode$ = "" Then ExitFunction
+   
+   `Increment the List count
+   codeList_Count = codeList_Count + 1
+   `If the list count is too big, make the array bigger
+   If codeList_Count > codeList_Size
+      codeList_Size = codeList_Count + 100
+      Dim codeList(codeList_Size)
+   EndIf
+   `Store Value in the array
+   codeList(codeList_Count) = oGameCode$
+EndFunction
+
+`Builds a list of Game ID's to later be processed.  Opens the games.txt file.
+Function Game_CodeListBuild()
+   oFile$ = rootPath + "\games.txt"
+   If File Exist(oFile$)= 1
+      Log_Update("Loading game list from games.txt.")
+      Open To Read 1, oFile$
+         While File End(1) = 0
+            Read String 1, oGameCode$
+            Game_CodeListAdd(oGameCode$)
+         EndWhile
+      Close File 1
+   Else
+      Log_Update("Error: games.txt not found.  Should list each game title id in this file.")
+   EndIf
+EndFunction
+
+`Creates the folder for a given game id.
+Function Game_CreateFolder(oGameCode$)
+   If Path Exist(rootPath + "\" + oGameCode$ + "\") = 0
+      Make Directory oGameCode$
+      Log_Update("Created Game Folder: " + oGameCode$)
+   Else
+      Log_Update("Error Game Folder Already Exists: " + oGameCode$)
+   EndIf
+EndFunction
+
+`Processes all game id's that are loaded (creats folders, grabs xml, downloads packages)
+Function Game_BuildAll()
+   Log_Update("Begin processing PS3 title ID list.")
+   Log_Update(STR$(codeList_Count) + " games loaded.")
+   `Run through each game id in the list
+   For i = 1 to codeList_Count
+      `Processes game id.
+      Game_BuildCode(codeList(i))
+   Next i
+EndFunction
+
+`Prceses a specific game id.
+Function Game_BuildCode(oGameCode$)
+   Log_Update("")
+   Log_Update("Processing game " + oGameCode$ + "." )
+   Game_CreateFolder(oGameCode$)
+   If Game_DownloadXMLUpdateFile(oGameCode$) = 1
+      XML_ParseFile(oGameCode$)
+      Log_Update("Processing complete.")
+   Else
+      Log_Update("Aborting " + oGameCode$ + ".")
+      Log_AddXMLFail(oGameCode$)
+   EndIf
+EndFunction
+
+`This will run the batch file created.  This uses Microsoft BITS to download the XML bypassing HTTPS invalid certificates.
+Function Game_RunXMLDownloadScript(oGameCode$)
+   oFile$ = rootPath + "\" + oGameCode$ + "\" + oGameCode$ + ".bat"
+   Log_Update("Running XML Download Script: " + oGameCode$)
+   EXECUTE FILE oFile$, "", rootPath + "\" + oGameCode$ + "\", 1
+   Log_Update("Finished Script: " + oGameCode$)
+EndFunction
+
+`Creates a batch file in the game id folder, this will
+Function Game_CreateXMLDownloadScript(oGameCode$, oTime)
+   oFile$ = rootPath + "\" + oGameCode$ + "\" + oGameCode$ + ".bat"
+   oXMLFile$ = rootPath + "\" + oGameCode$ + "\" + oGameCode$ + ".xml"
+   Randomize Timer()
+   oRND$ = STR$(RND(10000))
+   oJob$ = oGameCode$ + oRND$
+   If File Exist (oFile$) Then Delete File oFile$
+   
+   Open to write 1, oFile$
+      Write String 1, "REM This script will use Windows Background Intelligent Transfer Service (BITS) to download the XML file containing PS3 update file urls for a chosen game."
+      Write String 1, "Echo Off"
+      Write String 1, "CLS"
+      Write String 1, "title " + CHR$(34) + "Downloading XML" + CHR$(34)
+      Write String 1, "bitsadmin /create " + oJob$
+      Write String 1, "bitsadmin /addfile "  + oJob$ + " " + CHR$(34) + "https://a0.ww.np.dl.playstation.net/tpl/np/" + oGameCode$ + "/" + oGameCode$ + "-ver.xml" + CHR$(34) + " " + CHR$(34) + oXMLFile$ + CHR$(34)
+      Write String 1, "bitsadmin /SetSecurityFlags "  + oJob$ + " 30"
+      Write String 1, "bitsadmin /SetPriority "  + oJob$ + " FOREGROUND"
+      Write String 1, "bitsadmin /resume " + oJob$
+      Write String 1, "timeout /t " + STR$(oTime)
+      Write String 1, "bitsadmin /complete " + oJob$
+   Close File 1
+   Log_Update("Created XML Download Script: " + oGameCode$)
+EndFunction
+
+`This manages the entire job of downloading the XML manifest file.
+`It will retry with greater time outs if there is a failure.
+Function Game_DownloadXMLUpdateFile(oGameCode$)
+   retVal = 0
+   `get the file name for the xml file
+   oXMLFile$ = rootPath + "\" + oGameCode$ + "\" + oGameCode$ + ".xml"
+   oBatFile$ = rootPath + "\" + oGameCode$ + "\" + oGameCode$ + ".bat"
+   `Attempt the download with a 2 second time out.
+   Game_CreateXMLDownloadScript(oGameCode$, 2)
+   Game_RunXMLDownloadScript(oGameCode$)
+   If Game_ValidateXML(oXMLFile$) = 0
+      `retry with a 5 second time out if xml still does not exist
+      Log_Update("Error:  XML not found.  Retrying with 5 second time out.")
+      Game_CreateXMLDownloadScript(oGameCode$, 5)
+      Game_RunXMLDownloadScript(oGameCode$)
+   EndIf 
+   If Game_ValidateXML(oXMLFile$) = 0
+      `retry with a 10 second time out if xml still does not exist
+      Log_Update("Error:  XML not found.  Retrying with 10 second time out.")
+      Game_CreateXMLDownloadScript(oGameCode$, 10)
+      Game_RunXMLDownloadScript(oGameCode$)
+   EndIf 
+   If Game_ValidateXML(oXMLFile$) = 0
+      `retry with a 30 second time out if xml still does not exist
+      Log_Update("Error:  XML not found.  Retrying with 30 second time out.")
+      Game_CreateXMLDownloadScript(oGameCode$, 30)
+      Game_RunXMLDownloadScript(oGameCode$)
+   EndIf 
+   If Game_ValidateXML(oXMLFile$) = 0
+      `report complete failure if retries did not work.  file may not exist on server at all.
+      Log_Update("Error:  Cannot download XML update manifest for " + oGameCode$ + ".")
+   Else
+      `report download successful.
+      Log_Update("XML Manifest successfully downloaded: " + oGameCode$ + ".")
+      retVal = 1
+   EndIf
+   
+   `Cleanup the batch file that was created to download the XML file using Windows BITS service.
+   If File Exist(oBatFile$) = 1 Then Delete File oBatFile$
+   
+   `Cleanup the folder that was created for the game code if XML file did not download.
+   If File Exist(oXMLFile$) = 0
+      If Path Exist(rootPath + "\" + oGameCode$ + "\") = 1
+         `Safety code to prevent erroneous path name.
+         If rootPath <> "" and oGameCode$ <> ""
+            Delete Directory rootPath + "\" + oGameCode$ + "\"
+         EndIf
+      EndIf
+   EndIf
+EndFunction retVal
+
+`This function will check if file exists, and fail/delete empty files.  This is used to check if XML file downloaded, and sometimes it errors and downloads empty.  We want to delete the empty file and report it as not downloaded.
+Function Game_ValidateXML(oXMLFile$)
+   retVal = 0
+   `Does xml file exist
+   If File Exist(oXMLFile$) = 1
+      `is the file not empty
+      If File Size(oXMLFile$) > 0
+         `report back success
+         retVal = 1
+      Else
+         `delete the empty file.
+         Delete File oXMLFile$
+      EndIf
+   EndIf
+   `report back file does not exist.
+EndFunction retVal
+
+`logs a history report on all failed urls
+Function Log_AddURLFail(oURL$)
+   `Increment the List count
+   logURLFailList_Count = logURLFailList_Count + 1
+   `If the list count is too big, make the array bigger
+   If logURLFailList_Count > logURLFailList_Size
+      logURLFailList_Size = logURLFailList_Count + 100
+      Dim logURLFailList(logURLFailList_Size)
+   EndIf
+   `Store Value in the array
+   logURLFailList(logURLFailList_Count) = oURL$
+EndFunction
+
+`logs a history report on all failed game ids
+Function Log_AddXMLFail(oGameCode$)
+   `Increment the List count
+   logXMLFailList_Count = logXMLFailList_Count + 1
+   `If the list count is too big, make the array bigger
+   If logXMLFailList_Count > logXMLFailList_Size
+      logXMLFailList_Size = logXMLFailList_Count + 100
+      Dim logXMLFailList(logXMLFailList_Size)
+   EndIf
+   `Store Value in the array
+   logXMLFailList(logXMLFailList_Count) = oGameCode$
+EndFunction
+
+`closes the log file.
+Function Log_Close()
+   Close File 2
+EndFunction
+
+`This will prepare the log file for new information.
+Function Log_Init()
+   oFile$ = rootPath + "\log.txt"
+   If File Exist(oFile$) = 1 Then Delete File oFile$
+   Open To Write 2, oFile$
+EndFunction
+
+
+`This function will print out a report of all failed games.
+Function Log_ReportXMLFail()
+   `Get the failure count
+   oCount = logXMLFailList_Count
+   `log the header
+   Log_Update("")
+   Log_Update("Game Processing Failure Report:")
+   `log each game ID.
+   For i = 1 to oCount
+      Log_Update(logXMLFailList(i))
+   Next i
+   `log the number of games that failed to process entirely.
+   Log_Update("Complete failures: " + Str$(oCount))
+EndFunction
+
+`This function will print out a report of all failed games.
+Function Log_ReportURLFail()
+   `Get the failure count
+   oCount = logURLFailList_Count
+   `log the header
+   Log_Update("")
+   Log_Update("File Download Failure Report:")
+   `log each game ID.
+   For i = 1 to oCount
+      Log_Update(logURLFailList(i))
+   Next i
+   `log the number of games that failed to process entirely.
+   Log_Update("Download failures: " + Str$(oCount))
+EndFunction
+
+`Updates log in app window, and calls to write log to file.
+Function Log_Update(oString$)
+   Print oString$
+   Log_Write(oString$)
+   Sync
+EndFunction
+
+`Writes a string to the log file.  Assumes file is open already.
+Function Log_Write(oString$)
+   Write String 2, oString$
+EndFunction
+
+`Converts String to Integer
+Function StrToInt(oString$)
+   retVal = 0
+   For i = 1 to LEN(oString$)
+      oChar$ = MID$(oString$, LEN(oString$) - i + 1)
+      oDigit = ASC(oChar$) - 48
+      retVal = retVal + oDigit * (10 ^ (i - 1))
+   Next i
+Endfunction retVal
+
+
+Function XML_ParseFile(oGameCode$)
+   Local oByte as Byte
+   lastFiveChars$ = ""
+   lastSixChars$ = ""
+   oXMLFile$ = rootPath + "\" + oGameCode$ + "\" + oGameCode$ + ".xml"
+   If File Exist(oXMLFile$) = 1
+      Open to Read 1, oXMLFile$
+         While File End(1) = 0
+            Read Byte 1, nByte
+            nChar$ = CHR$(nByte)
+            `Log_Update(nChar$)
+            
+            lastFiveChars$ = RIGHT$(lastFiveChars$, 4) + nChar$
+            lastSixChars$ = RIGHT$(lastSixChars$, 5) + nChar$
+            If lastFiveChars$ = "url=" + CHR$(34) Then XML_ParseURL(rootPath + "\" + oGameCode$, oFileSize)
+            If lastSixChars$ = "size=" + CHR$(34) Then oFileSize = XML_ParseSize()
+         EndWhile
+      Close File 1
+   EndIf   
+EndFunction
+
+Function XML_ParseURL(oPath$, oFileSize)
+   oURL$ = ""
+   While File End(1) = 0
+      Read Byte 1, nByte
+      nChar$ = CHR$(nByte)
+      If nChar$ <> CHR$(34)
+         oURL$ = oURL$ + nChar$
+      Else
+         If oURL$ <> ""
+            `Log_Update("Downloading: " + oURL$)
+            File_Download(oURL$, oPath$, oFileSize)
+         Else
+            Log_Update("XML Error:  Empty Download string found.")
+         EndIf
+         ExitFunction
+      EndIf
+   EndWhile
+   Log_Update("XML Error Invalid URL: " + CHR$(34) + oURL$ + CHR$(34))
+EndFunction
+
+`This function will parse a file size tag out of XML manifest.  This can later be used to verify if file sucecssfully downloaded.
+Function XML_ParseSize()
+   local retVal as integer
+   retVal = 0
+   oString$ = ""
+   `While file still has bytes to read
+   While File End(1) = 0
+      `Get the next character from the file.
+      Read Byte 1, nByte
+      nChar$ = CHR$(nByte)
+      
+      `if the character is not a " character which would typically end the section we want.
+      If nChar$ <> CHR$(34)
+         `add the character to the string
+          oString$ =  oString$ + nChar$
+      Else
+         `If the string indicating the file size is not empty.
+         If oString$ <> ""
+            `Convert the string to it's numerical equivilant.
+            retVal = StrToInt(oString$)
+            `Log the file size.
+            Log_Update("File Size: " + str$(retVal) + " bytes.")
+         Else
+            `report an error, a zero file size.
+            Log_Update("XML Error:  File Size " + str$(retVal) + " bytes.")
+         EndIf
+         `Exit with the current file size determined.
+         ExitFunction retVal
+      EndIf
+   EndWhile
+   
+   `report an error, we've processed to the end of the file and that should not happen.
+   Log_Update("XML Error:  File Size " + str$(retVal) + " bytes.")
+EndFunction retVal

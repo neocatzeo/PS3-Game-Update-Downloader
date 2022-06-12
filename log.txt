@@ -1,0 +1,1557 @@
+Neocatzeo's PS3 Update Package Downloader
+Version: 1.0
+06/12/22:12:20:19
+
+Loading game list from games.txt.
+Begin processing PS3 title ID list.
+68 games loaded.
+
+Processing game BLUS30264.
+Error Game Folder Already Exists: BLUS30264
+Created XML Download Script: BLUS30264
+Running XML Download Script: BLUS30264
+Finished Script: BLUS30264
+XML Manifest successfully downloaded: BLUS30264.
+File Size: 12965632 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30264/BLUS30264_T0/e3582088d9229144/UP0700-BLUS30264_00-AFROSAMURAIPATCH-A0101-V0100-PE.pkg
+Error:  Skipping file, already exists. 12965632 bytes.
+Processing complete.
+
+Processing game BLUS30089.
+Error Game Folder Already Exists: BLUS30089
+Created XML Download Script: BLUS30089
+Running XML Download Script: BLUS30089
+Finished Script: BLUS30089
+XML Manifest successfully downloaded: BLUS30089.
+File Size: 25530528 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30089/BLUS30089_T4/be16719a2ae20da7/UP0001-BLUS30089_00-ASSASSINPATCH001-PE.pkg
+Error:  Skipping file, already exists. 25530528 bytes.
+Processing complete.
+
+Processing game BLUS30364.
+Error Game Folder Already Exists: BLUS30364
+Created XML Download Script: BLUS30364
+Running XML Download Script: BLUS30364
+Finished Script: BLUS30364
+XML Manifest successfully downloaded: BLUS30364.
+File Size: 80576224 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30364/BLUS30364_T1/a60d08181441c87f/UP0001-BLUS30364_00-AC2PATCH00000002-A0102-V0100-PE.pkg
+Error:  Skipping file, already exists. 80576224 bytes.
+Processing complete.
+
+Processing game BLUS30991.
+Error Game Folder Already Exists: BLUS30991
+Created XML Download Script: BLUS30991
+Running XML Download Script: BLUS30991
+Finished Script: BLUS30991
+XML Manifest successfully downloaded: BLUS30991.
+File Size: 35324448 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30991/BLUS30991_T35/4889dc60cf39941b/UP0001-BLUS30991_00-AC3TITLEUPDATE60-A0204-V0100-PE.pkg
+Error:  Skipping file, already exists. 35324448 bytes.
+Processing complete.
+
+Processing game BLUS30537.
+Error Game Folder Already Exists: BLUS30537
+Created XML Download Script: BLUS30537
+Running XML Download Script: BLUS30537
+Finished Script: BLUS30537
+XML Manifest successfully downloaded: BLUS30537.
+File Size: 34288480 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30537/BLUS30537_T8/02978bd417dd6d4c/UP0001-BLUS30537_00-AC2TITLEUPDATE05-A0105-V0100-PE.pkg
+Error:  Skipping file, already exists. 34288480 bytes.
+Processing complete.
+
+Processing game BLUS31465.
+Error Game Folder Already Exists: BLUS31465
+Created XML Download Script: BLUS31465
+Running XML Download Script: BLUS31465
+Finished Script: BLUS31465
+XML Manifest successfully downloaded: BLUS31465.
+File Size: 21367744 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS31465/BLUS31465_T0/e157f49043825f83/UP0001-BLUS31465_00-ACCTITLEUPDATE10-A0101-V0100-PE.pkg
+Error:  Skipping file, already exists. 21367744 bytes.
+Processing complete.
+
+Processing game BLUS30515.
+Error Game Folder Already Exists: BLUS30515
+Created XML Download Script: BLUS30515
+Running XML Download Script: BLUS30515
+Finished Script: BLUS30515
+XML Manifest successfully downloaded: BLUS30515.
+Processing complete.
+
+Processing game BLUS30538.
+Error Game Folder Already Exists: BLUS30538
+Created XML Download Script: BLUS30538
+Running XML Download Script: BLUS30538
+Finished Script: BLUS30538
+XML Manifest successfully downloaded: BLUS30538.
+File Size: 25938320 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30538/BLUS30538_T3/aa7328b3df193e17/UP1018-BLUS30538_00-ARKHAMCITY0PATCH-A0104-V0100-PE.pkg
+Error:  Skipping file, already exists. 25938320 bytes.
+Processing complete.
+
+Processing game BLUS31147.
+Error Game Folder Already Exists: BLUS31147
+Created XML Download Script: BLUS31147
+Running XML Download Script: BLUS31147
+Finished Script: BLUS31147
+XML Manifest successfully downloaded: BLUS31147.
+File Size: 72945376 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS31147/BLUS31147_T5/e3da4bcc3f810e71/UP1018-BLUS31147_00-BATMANORIGIPATCH-A0106-V0100-PE.pkg
+Error:  Skipping file, already exists. 72945376 bytes.
+Processing complete.
+
+Processing game BLUS31068.
+Created Game Folder: BLUS31068
+Created XML Download Script: BLUS31068
+Running XML Download Script: BLUS31068
+Finished Script: BLUS31068
+Error:  XML not found.  Retrying with 5 second time out.
+Created XML Download Script: BLUS31068
+Running XML Download Script: BLUS31068
+Finished Script: BLUS31068
+Error:  XML not found.  Retrying with 10 second time out.
+Created XML Download Script: BLUS31068
+Running XML Download Script: BLUS31068
+Finished Script: BLUS31068
+Error:  XML not found.  Retrying with 30 second time out.
+Created XML Download Script: BLUS31068
+Running XML Download Script: BLUS31068
+Finished Script: BLUS31068
+Error:  Cannot download XML update manifest for BLUS31068.
+Aborting BLUS31068.
+
+Processing game BLUS30576.
+Error Game Folder Already Exists: BLUS30576
+Created XML Download Script: BLUS30576
+Running XML Download Script: BLUS30576
+Finished Script: BLUS30576
+XML Manifest successfully downloaded: BLUS30576.
+File Size: 451941936 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30576/BLUS30576_T3/04f7e627c06e631c/UP1024-BLUS30576_00-BBCSUPDATEDATA04-A0104-V0100-PE.pkg
+Error:  Skipping file, already exists. 451941936 bytes.
+Processing complete.
+
+Processing game BLUS31445.
+Error Game Folder Already Exists: BLUS31445
+Created XML Download Script: BLUS31445
+Running XML Download Script: BLUS31445
+Finished Script: BLUS31445
+XML Manifest successfully downloaded: BLUS31445.
+File Size: 724881280 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS31445/BLUS31445_T10/ff82027770648db7/UP1001-BLUS31445_00-BLPRESEQUELPATCH-A0107-V0100-PE.pkg
+Error:  Skipping file, already exists. 724881280 bytes.
+Processing complete.
+
+Processing game BLUS30061.
+Error Game Folder Already Exists: BLUS30061
+Created XML Download Script: BLUS30061
+Running XML Download Script: BLUS30061
+Finished Script: BLUS30061
+XML Manifest successfully downloaded: BLUS30061.
+File Size: 402842736 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30061/BLUS30061_T11/3a0d66c70319b5d9/UP0006-BLUS30061_00-BURNOUTPATCH0003-A0130-V0100-PE.pkg
+Error:  Skipping file, already exists. 402842736 bytes.
+File Size: 161177936 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30061/BLUS30061_T11/3a0d66c70319b5d9/UP0006-BLUS30061_00-BURNOUTPATCH0004-A0140-V0100-PE.pkg
+Error:  Skipping file, already exists. 161177936 bytes.
+File Size: 36593312 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30061/BLUS30061_T11/3a0d66c70319b5d9/UP0006-BLUS30061_00-BURNOUTPATCH0005-A0150-V0101-PE.pkg
+Error:  Skipping file, already exists. 36593312 bytes.
+File Size: 261525776 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30061/BLUS30061_T11/3a0d66c70319b5d9/UP0006-BLUS30061_00-BURNOUTPATCH0006-A0160-V0100-PE.pkg
+Error:  Skipping file, already exists. 261525776 bytes.
+File Size: 139441360 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30061/BLUS30061_T11/3a0d66c70319b5d9/UP0006-BLUS30061_00-BURNOUTPATCH0007-A0170-V0100-PE.pkg
+Error:  Skipping file, already exists. 139441360 bytes.
+File Size: 183983360 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30061/BLUS30061_T11/3a0d66c70319b5d9/UP0006-BLUS30061_00-BURNOUTPATCH0008-A0180-V0100-PE.pkg
+Error:  Skipping file, already exists. 183983360 bytes.
+File Size: 432580880 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30061/BLUS30061_T11/3a0d66c70319b5d9/UP0006-BLUS30061_00-BURNOUTPATCH0009-A0190-V0100-PE.pkg
+Error:  Skipping file, already exists. 432580880 bytes.
+Processing complete.
+
+Processing game BLUS30320.
+Error Game Folder Already Exists: BLUS30320
+Created XML Download Script: BLUS30320
+Running XML Download Script: BLUS30320
+Finished Script: BLUS30320
+XML Manifest successfully downloaded: BLUS30320.
+Processing complete.
+
+Processing game BLUS30829.
+Error Game Folder Already Exists: BLUS30829
+Created XML Download Script: BLUS30829
+Running XML Download Script: BLUS30829
+Finished Script: BLUS30829
+XML Manifest successfully downloaded: BLUS30829.
+File Size: 34131488 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30829/BLUS30829_T2/345f6dd911c04d11/UP1005-BLUS30829_00-DARKSIDERSPATCH2-A0102-V0100-PE.pkg
+Error:  Skipping file, already exists. 34131488 bytes.
+Processing complete.
+
+Processing game BLUS30971.
+Error Game Folder Already Exists: BLUS30971
+Created XML Download Script: BLUS30971
+Running XML Download Script: BLUS30971
+Finished Script: BLUS30971
+XML Manifest successfully downloaded: BLUS30971.
+File Size: 273710176 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30971/BLUS30971_T9/c2731e5ebabfcab5/UP4108-BLUS30971_00-DOA5PATCH0101000-A0105-V0101-PE.pkg
+Error:  Skipping file, already exists. 273710176 bytes.
+Processing complete.
+
+Processing game BLUS30177.
+Error Game Folder Already Exists: BLUS30177
+Created XML Download Script: BLUS30177
+Running XML Download Script: BLUS30177
+Finished Script: BLUS30177
+XML Manifest successfully downloaded: BLUS30177.
+Processing complete.
+
+Processing game BLUSbles0.
+Created Game Folder: BLUSbles0
+Created XML Download Script: BLUSbles0
+Running XML Download Script: BLUSbles0
+Finished Script: BLUSbles0
+Error:  XML not found.  Retrying with 5 second time out.
+Created XML Download Script: BLUSbles0
+Running XML Download Script: BLUSbles0
+Finished Script: BLUSbles0
+Error:  XML not found.  Retrying with 10 second time out.
+Created XML Download Script: BLUSbles0
+Running XML Download Script: BLUSbles0
+Finished Script: BLUSbles0
+Error:  XML not found.  Retrying with 30 second time out.
+Created XML Download Script: BLUSbles0
+Running XML Download Script: BLUSbles0
+Finished Script: BLUSbles0
+Error:  Cannot download XML update manifest for BLUSbles0.
+Aborting BLUSbles0.
+
+Processing game BLUS30501.
+Error Game Folder Already Exists: BLUS30501
+Created XML Download Script: BLUS30501
+Running XML Download Script: BLUS30501
+Finished Script: BLUS30501
+XML Manifest successfully downloaded: BLUS30501.
+File Size: 36125440 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30501/BLUS30501_T3/4af4fdea43d4d9dd/UP1003-BLUS30501_00-DISHONOREDPATCH4-A0104-V0100-PE.pkg
+Error:  Skipping file, already exists. 36125440 bytes.
+Processing complete.
+
+Processing game BLUS30723.
+Error Game Folder Already Exists: BLUS30723
+Created XML Download Script: BLUS30723
+Running XML Download Script: BLUS30723
+Finished Script: BLUS30723
+XML Manifest successfully downloaded: BLUS30723.
+File Size: 35197104 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30723/BLUS30723_T3/acc404576df9d87e/UP0102-BLUS30723_00-DEVILPATCH000001-A0101-V0101-PE.pkg
+Error:  Skipping file, already exists. 35197104 bytes.
+Processing complete.
+
+Processing game BLUS30415.
+Error Game Folder Already Exists: BLUS30415
+Created XML Download Script: BLUS30415
+Running XML Download Script: BLUS30415
+Finished Script: BLUS30415
+XML Manifest successfully downloaded: BLUS30415.
+File Size: 31701456 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30415/BLUS30415_T6/2711591156309abc/UP0006-BLUS30415_00-DAOPATCH106POST0-A0106-V0100-PE.pkg
+Error:  Skipping file, already exists. 31701456 bytes.
+Processing complete.
+
+Processing game BLUS30645.
+Error Game Folder Already Exists: BLUS30645
+Created XML Download Script: BLUS30645
+Running XML Download Script: BLUS30645
+Finished Script: BLUS30645
+XML Manifest successfully downloaded: BLUS30645.
+File Size: 35565088 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30645/BLUS30645_T5/d24fea1a70ebc8e1/UP0006-BLUS30645_00-DA2PATCH01050000-A0105-V0101-PE.pkg
+Error:  Skipping file, already exists. 35565088 bytes.
+Processing complete.
+
+Processing game BLUS31507.
+Error Game Folder Already Exists: BLUS31507
+Created XML Download Script: BLUS31507
+Running XML Download Script: BLUS31507
+Finished Script: BLUS31507
+XML Manifest successfully downloaded: BLUS31507.
+File Size: 413222064 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS31507/BLUS31507_T7/c7ce78fc1be67695/UP0700-BLUS31507_00-DRAGONBALLXV0000-A0108-V0100-PE.pkg
+Error:  Skipping file, already exists. 413222064 bytes.
+Processing complete.
+
+Processing game BLUS30110.
+Created Game Folder: BLUS30110
+Created XML Download Script: BLUS30110
+Running XML Download Script: BLUS30110
+Finished Script: BLUS30110
+Error:  XML not found.  Retrying with 5 second time out.
+Created XML Download Script: BLUS30110
+Running XML Download Script: BLUS30110
+Finished Script: BLUS30110
+Error:  XML not found.  Retrying with 10 second time out.
+Created XML Download Script: BLUS30110
+Running XML Download Script: BLUS30110
+Finished Script: BLUS30110
+Error:  XML not found.  Retrying with 30 second time out.
+Created XML Download Script: BLUS30110
+Running XML Download Script: BLUS30110
+Finished Script: BLUS30110
+Error:  Cannot download XML update manifest for BLUS30110.
+Aborting BLUS30110.
+
+Processing game BLUS31402.
+Error Game Folder Already Exists: BLUS31402
+Created XML Download Script: BLUS31402
+Running XML Download Script: BLUS31402
+Finished Script: BLUS31402
+XML Manifest successfully downloaded: BLUS31402.
+File Size: 51109664 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS31402/BLUS31402_T0/e18da62da42a6bb7/UP4108-BLUS31402_00-DW8NXLPATCHUS001-A0101-V0100-PE.pkg
+Error:  Skipping file, already exists. 51109664 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS31402/BLUS31402_T0/e18da62da42a6bb7/PARAM.HIP
+Error File Size: 1065 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 1065 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 1065 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 1065 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 1065 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 1065 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 1065 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 1065 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 1065 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM.HIP
+Error File Size: 1065 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM.HIP
+Error: Download failed.  Aborting.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS31402/BLUS31402_T0/e18da62da42a6bb7/PARAM_02.HIP
+Error File Size: 1190 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_02.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 1190 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_02.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 1190 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_02.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 1190 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_02.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 1190 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_02.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 1190 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_02.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 1190 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_02.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 1190 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_02.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 1190 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_02.HIP
+Error File Size: 1190 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_02.HIP
+Error: Download failed.  Aborting.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS31402/BLUS31402_T0/e18da62da42a6bb7/PARAM_04.HIP
+Error File Size: 1238 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_04.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 1238 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_04.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 1238 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_04.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 1238 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_04.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 1238 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_04.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 1238 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_04.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 1238 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_04.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 1238 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_04.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 1238 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_04.HIP
+Error File Size: 1238 should be 51109664.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS31402\PARAM_04.HIP
+Error: Download failed.  Aborting.
+Processing complete.
+
+Processing game BLUSff13.
+Created Game Folder: BLUSff13
+Created XML Download Script: BLUSff13
+Running XML Download Script: BLUSff13
+Finished Script: BLUSff13
+Error:  XML not found.  Retrying with 5 second time out.
+Created XML Download Script: BLUSff13
+Running XML Download Script: BLUSff13
+Finished Script: BLUSff13
+Error:  XML not found.  Retrying with 10 second time out.
+Created XML Download Script: BLUSff13
+Running XML Download Script: BLUSff13
+Finished Script: BLUSff13
+Error:  XML not found.  Retrying with 30 second time out.
+Created XML Download Script: BLUSff13
+Running XML Download Script: BLUSff13
+Finished Script: BLUSff13
+Error:  Cannot download XML update manifest for BLUSff13.
+Aborting BLUSff13.
+
+Processing game BLUS30416.
+Created Game Folder: BLUS30416
+Created XML Download Script: BLUS30416
+Running XML Download Script: BLUS30416
+Finished Script: BLUS30416
+Error:  XML not found.  Retrying with 5 second time out.
+Created XML Download Script: BLUS30416
+Running XML Download Script: BLUS30416
+Finished Script: BLUS30416
+Error:  XML not found.  Retrying with 10 second time out.
+Created XML Download Script: BLUS30416
+Running XML Download Script: BLUS30416
+Finished Script: BLUS30416
+Error:  XML not found.  Retrying with 30 second time out.
+Created XML Download Script: BLUS30416
+Running XML Download Script: BLUS30416
+Finished Script: BLUS30416
+Error:  Cannot download XML update manifest for BLUS30416.
+Aborting BLUS30416.
+
+Processing game BLUS30776.
+Error Game Folder Already Exists: BLUS30776
+Created XML Download Script: BLUS30776
+Running XML Download Script: BLUS30776
+Finished Script: BLUS30776
+XML Manifest successfully downloaded: BLUS30776.
+File Size: 32788128 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30776/BLUS30776_T4/adb3b38ede9af791/UP0082-BLUS30776_00-PATCHVERSION0106-A0106-V0100-PE.pkg
+Error:  Skipping file, already exists. 32788128 bytes.
+Processing complete.
+
+Processing game BLUS31164.
+Error Game Folder Already Exists: BLUS31164
+Created XML Download Script: BLUS31164
+Running XML Download Script: BLUS31164
+Finished Script: BLUS31164
+XML Manifest successfully downloaded: BLUS31164.
+File Size: 13592832 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS31164/BLUS31164_T5/05f94e3f218f330d/UP0082-BLUS31164_00-PATCHVERSION0101-A0101-V0100-PE.pkg
+Error:  Skipping file, already exists. 13592832 bytes.
+Processing complete.
+
+Processing game BLUS30307.
+Error Game Folder Already Exists: BLUS30307
+Created XML Download Script: BLUS30307
+Running XML Download Script: BLUS30307
+Finished Script: BLUS30307
+XML Manifest successfully downloaded: BLUS30307.
+File Size: 61770096 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30307/BLUS30307_T1/617aee865db0c7a2/UP0182-BLUS30307_00-PROTON103PATCH01-A0103-V0101-PE.pkg
+Error:  Skipping file, already exists. 61770096 bytes.
+Processing complete.
+
+Processing game BCUS98229.
+Error Game Folder Already Exists: BCUS98229
+Created XML Download Script: BCUS98229
+Running XML Download Script: BCUS98229
+Finished Script: BCUS98229
+XML Manifest successfully downloaded: BCUS98229.
+File Size: 40854544 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98229/BCUS98229_T0/4303537435ef6f5b/UP9000-BCUS98229_00-GOWHDCLSHIP02222-A0101-V0100-PE.pkg
+Error:  Skipping file, already exists. 40854544 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98229/BCUS98229_T0/4303537435ef6f5b/PARAM.HIP
+Error File Size: 348 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 348 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 348 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 348 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 348 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 348 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 348 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 348 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 348 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM.HIP
+Error File Size: 348 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM.HIP
+Error: Download failed.  Aborting.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98229/BCUS98229_T0/4303537435ef6f5b/PARAM_02.HIP
+Error File Size: 412 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_02.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 412 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_02.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 412 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_02.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 412 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_02.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 412 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_02.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 412 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_02.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 412 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_02.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 412 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_02.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 412 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_02.HIP
+Error File Size: 412 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_02.HIP
+Error: Download failed.  Aborting.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98229/BCUS98229_T0/4303537435ef6f5b/PARAM_03.HIP
+Error File Size: 380 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_03.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 380 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_03.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 380 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_03.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 380 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_03.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 380 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_03.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 380 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_03.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 380 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_03.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 380 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_03.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 380 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_03.HIP
+Error File Size: 380 should be 40854544.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BCUS98229\PARAM_03.HIP
+Error: Download failed.  Aborting.
+Processing complete.
+
+Processing game BCUS90085.
+Created Game Folder: BCUS90085
+Created XML Download Script: BCUS90085
+Running XML Download Script: BCUS90085
+Finished Script: BCUS90085
+Error:  XML not found.  Retrying with 5 second time out.
+Created XML Download Script: BCUS90085
+Running XML Download Script: BCUS90085
+Finished Script: BCUS90085
+Error:  XML not found.  Retrying with 10 second time out.
+Created XML Download Script: BCUS90085
+Running XML Download Script: BCUS90085
+Finished Script: BCUS90085
+Error:  XML not found.  Retrying with 30 second time out.
+Created XML Download Script: BCUS90085
+Running XML Download Script: BCUS90085
+Finished Script: BCUS90085
+Error:  Cannot download XML update manifest for BCUS90085.
+Aborting BCUS90085.
+
+Processing game BLUS30127.
+Error Game Folder Already Exists: BLUS30127
+Created XML Download Script: BLUS30127
+Running XML Download Script: BLUS30127
+Finished Script: BLUS30127
+XML Manifest successfully downloaded: BLUS30127.
+File Size: 19890560 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30127/BLUS30127_T10/7cdb4771cdc2db79/UP1017-BLUS30127_00-GTAIVUPDATEV0108-A0108-V0100-PE.pkg
+Error:  Skipping file, already exists. 19890560 bytes.
+Processing complete.
+
+Processing game BLUS3052.
+Created Game Folder: BLUS3052
+Created XML Download Script: BLUS3052
+Running XML Download Script: BLUS3052
+Finished Script: BLUS3052
+Error:  XML not found.  Retrying with 5 second time out.
+Created XML Download Script: BLUS3052
+Running XML Download Script: BLUS3052
+Finished Script: BLUS3052
+Error:  XML not found.  Retrying with 10 second time out.
+Created XML Download Script: BLUS3052
+Running XML Download Script: BLUS3052
+Finished Script: BLUS3052
+Error:  XML not found.  Retrying with 30 second time out.
+Created XML Download Script: BLUS3052
+Running XML Download Script: BLUS3052
+Finished Script: BLUS3052
+Error:  Cannot download XML update manifest for BLUS3052.
+Aborting BLUS3052.
+
+Processing game BCUS98114.
+Error Game Folder Already Exists: BCUS98114
+Created XML Download Script: BCUS98114
+Running XML Download Script: BCUS98114
+Finished Script: BCUS98114
+XML Manifest successfully downloaded: BCUS98114.
+File Size: 637423280 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0105-V0100-PE.pkg
+Error:  Skipping file, already exists. 637423280 bytes.
+File Size: 314873312 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0106-V0100-PE.pkg
+Error:  Skipping file, already exists. 314873312 bytes.
+File Size: 48650880 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0107-V0100-PE.pkg
+Error:  Skipping file, already exists. 48650880 bytes.
+File Size: 1805056 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0108-V0100-PE.pkg
+Error:  Skipping file, already exists. 1805056 bytes.
+File Size: 49298736 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0109-V0100-PE.pkg
+Error:  Skipping file, already exists. 49298736 bytes.
+File Size: 398418784 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0110-V0100-PE.pkg
+Error:  Skipping file, already exists. 398418784 bytes.
+File Size: 64123456 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0111-V0101-PE.pkg
+Error:  Skipping file, already exists. 64123456 bytes.
+File Size: 13512448 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0112-V0100-PE.pkg
+Error:  Skipping file, already exists. 13512448 bytes.
+File Size: 1175872 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0113-V0100-PE.pkg
+Error:  Skipping file, already exists. 1175872 bytes.
+File Size: 1249152240 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0200-V0100-PE.pkg
+Error:  Skipping file, already exists. 1249152240 bytes.
+File Size: 117369568 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0201-V0100-PE.pkg
+Error:  Skipping file, already exists. 117369568 bytes.
+File Size: 256980640 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0202-V0100-PE.pkg
+Error:  Skipping file, already exists. 256980640 bytes.
+File Size: 234996768 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0203-V0100-PE.pkg
+Error:  Skipping file, already exists. 234996768 bytes.
+File Size: 81953344 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0204-V0100-PE.pkg
+Error:  Skipping file, already exists. 81953344 bytes.
+File Size: 25323536 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0205-V0100-PE.pkg
+Error:  Skipping file, already exists. 25323536 bytes.
+File Size: 497668864 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0206-V0100-PE.pkg
+Error:  Skipping file, already exists. 497668864 bytes.
+File Size: 2244720 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0207-V0100-PE.pkg
+Error:  Skipping file, already exists. 2244720 bytes.
+File Size: 237496816 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0208-V0100-PE.pkg
+Error:  Skipping file, already exists. 237496816 bytes.
+File Size: 106075712 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0209-V0100-PE.pkg
+Error:  Skipping file, already exists. 106075712 bytes.
+File Size: 57156384 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0210-V0100-PE.pkg
+Error:  Skipping file, already exists. 57156384 bytes.
+File Size: 46668464 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0211-V0100-PE.pkg
+Error:  Skipping file, already exists. 46668464 bytes.
+File Size: 24245952 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0212-V0100-PE.pkg
+Error:  Skipping file, already exists. 24245952 bytes.
+File Size: 17260656 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0213-V0100-PE.pkg
+Error:  Skipping file, already exists. 17260656 bytes.
+File Size: 13297952 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0214-V0100-PE.pkg
+Error:  Skipping file, already exists. 13297952 bytes.
+File Size: 15920016 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0215-V0100-PE.pkg
+Error:  Skipping file, already exists. 15920016 bytes.
+File Size: 36696704 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0216-V0100-PE.pkg
+Error:  Skipping file, already exists. 36696704 bytes.
+File Size: 13448016 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98114/BCUS98114_T62/78125ba1e5a5c354/UP9000-BCUS98114_00-0000000000000000-A0217-V0100-PE.pkg
+Error:  Skipping file, already exists. 13448016 bytes.
+Processing complete.
+
+Processing game BCUS98280.
+Created Game Folder: BCUS98280
+Created XML Download Script: BCUS98280
+Running XML Download Script: BCUS98280
+Finished Script: BCUS98280
+Error:  XML not found.  Retrying with 5 second time out.
+Created XML Download Script: BCUS98280
+Running XML Download Script: BCUS98280
+Finished Script: BCUS98280
+Error:  XML not found.  Retrying with 10 second time out.
+Created XML Download Script: BCUS98280
+Running XML Download Script: BCUS98280
+Finished Script: BCUS98280
+Error:  XML not found.  Retrying with 30 second time out.
+Created XML Download Script: BCUS98280
+Running XML Download Script: BCUS98280
+Finished Script: BCUS98280
+Error:  Cannot download XML update manifest for BCUS98280.
+Aborting BCUS98280.
+
+Processing game BCUS98119.
+Error Game Folder Already Exists: BCUS98119
+Created XML Download Script: BCUS98119
+Running XML Download Script: BCUS98119
+Finished Script: BCUS98119
+XML Manifest successfully downloaded: BCUS98119.
+Processing complete.
+
+Processing game BCUS98234.
+Error Game Folder Already Exists: BCUS98234
+Created XML Download Script: BCUS98234
+Running XML Download Script: BCUS98234
+Finished Script: BCUS98234
+XML Manifest successfully downloaded: BCUS98234.
+File Size: 129533792 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98234/BCUS98234_T47/0d8d77b0efb1360e/UP9000-BCUS98234_00-KZ3DISCPATVER188-A0114-V0100-PE.pkg
+Error:  Skipping file, already exists. 129533792 bytes.
+Processing complete.
+
+Processing game BCUS31212.
+Created Game Folder: BCUS31212
+Created XML Download Script: BCUS31212
+Running XML Download Script: BCUS31212
+Finished Script: BCUS31212
+Error:  XML not found.  Retrying with 5 second time out.
+Created XML Download Script: BCUS31212
+Running XML Download Script: BCUS31212
+Finished Script: BCUS31212
+Error:  XML not found.  Retrying with 10 second time out.
+Created XML Download Script: BCUS31212
+Running XML Download Script: BCUS31212
+Finished Script: BCUS31212
+Error:  XML not found.  Retrying with 30 second time out.
+Created XML Download Script: BCUS31212
+Running XML Download Script: BCUS31212
+Finished Script: BCUS31212
+Error:  Cannot download XML update manifest for BCUS31212.
+Aborting BCUS31212.
+
+Processing game BLUS30554.
+Error Game Folder Already Exists: BLUS30554
+Created XML Download Script: BLUS30554
+Running XML Download Script: BLUS30554
+Finished Script: BLUS30554
+XML Manifest successfully downloaded: BLUS30554.
+File Size: 12867632 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30554/BLUS30554_T1/76062fe740879cf2/UP1004-BLUS30554_00-PATCHLANOIRE0001-A0102-V0101-PE.pkg
+Error:  Skipping file, already exists. 12867632 bytes.
+Processing complete.
+
+Processing game BLUS30113.
+Error Game Folder Already Exists: BLUS30113
+Created XML Download Script: BLUS30113
+Running XML Download Script: BLUS30113
+Finished Script: BLUS30113
+XML Manifest successfully downloaded: BLUS30113.
+File Size: 21915232 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30113/BLUS30113_T0/c4c358ea830c92f3/UP0102-BLUS30113_00-LOSTPLANETPATCH1-PE.pkg
+Error:  Skipping file, already exists. 21915232 bytes.
+Processing complete.
+
+Processing game BLUS30410.
+Error Game Folder Already Exists: BLUS30410
+Created XML Download Script: BLUS30410
+Running XML Download Script: BLUS30410
+Finished Script: BLUS30410
+XML Manifest successfully downloaded: BLUS30410.
+File Size: 23178928 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30410/BLUS30410_T5/14ea586beffc4190/UP0102-BLUS30410_00-MVC3PS3DGP000002-A0103-V0100-PE.pkg
+Error:  Skipping file, already exists. 23178928 bytes.
+Processing complete.
+
+Processing game BLUS83009.
+Created Game Folder: BLUS83009
+Created XML Download Script: BLUS83009
+Running XML Download Script: BLUS83009
+Finished Script: BLUS83009
+Error:  XML not found.  Retrying with 5 second time out.
+Created XML Download Script: BLUS83009
+Running XML Download Script: BLUS83009
+Finished Script: BLUS83009
+Error:  XML not found.  Retrying with 10 second time out.
+Created XML Download Script: BLUS83009
+Running XML Download Script: BLUS83009
+Finished Script: BLUS83009
+Error:  XML not found.  Retrying with 30 second time out.
+Created XML Download Script: BLUS83009
+Running XML Download Script: BLUS83009
+Finished Script: BLUS83009
+Error:  Cannot download XML update manifest for BLUS83009.
+Aborting BLUS83009.
+
+Processing game BLUS30109.
+Error Game Folder Already Exists: BLUS30109
+Created XML Download Script: BLUS30109
+Running XML Download Script: BLUS30109
+Finished Script: BLUS30109
+XML Manifest successfully downloaded: BLUS30109.
+File Size: 541074640 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30109/BLUS30109_T0/aa57739cfb3617fe/UP0101-BLUS30109_00-PATCH00000000000-A0200-V0200-PE.pkg
+Error:  Skipping file, already exists. 541074640 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30109/BLUS30109_T0/aa57739cfb3617fe/PARAM.HIP
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM.HIP
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM.HIP
+Error: Download failed.  Aborting.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30109/BLUS30109_T0/aa57739cfb3617fe/PARAM_01.HIP
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_01.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_01.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_01.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_01.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_01.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_01.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_01.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_01.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_01.HIP
+Error File Size: 295 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_01.HIP
+Error: Download failed.  Aborting.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30109/BLUS30109_T0/aa57739cfb3617fe/PARAM_02.HIP
+Error File Size: 418 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_02.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 418 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_02.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 418 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_02.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 418 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_02.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 418 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_02.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 418 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_02.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 418 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_02.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 418 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_02.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 418 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_02.HIP
+Error File Size: 418 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_02.HIP
+Error: Download failed.  Aborting.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30109/BLUS30109_T0/aa57739cfb3617fe/PARAM_03.HIP
+Error File Size: 392 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_03.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 392 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_03.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 392 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_03.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 392 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_03.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 392 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_03.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 392 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_03.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 392 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_03.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 392 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_03.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 392 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_03.HIP
+Error File Size: 392 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_03.HIP
+Error: Download failed.  Aborting.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30109/BLUS30109_T0/aa57739cfb3617fe/PARAM_04.HIP
+Error File Size: 465 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_04.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 465 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_04.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 465 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_04.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 465 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_04.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 465 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_04.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 465 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_04.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 465 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_04.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 465 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_04.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 465 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_04.HIP
+Error File Size: 465 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_04.HIP
+Error: Download failed.  Aborting.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30109/BLUS30109_T0/aa57739cfb3617fe/PARAM_05.HIP
+Error File Size: 356 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_05.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 356 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_05.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 356 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_05.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 356 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_05.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 356 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_05.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 356 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_05.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 356 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_05.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 356 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_05.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 356 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_05.HIP
+Error File Size: 356 should be 541074640.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30109\PARAM_05.HIP
+Error: Download failed.  Aborting.
+Processing complete.
+
+Processing game BLUS30190.
+Error Game Folder Already Exists: BLUS30190
+Created XML Download Script: BLUS30190
+Running XML Download Script: BLUS30190
+Finished Script: BLUS30190
+XML Manifest successfully downloaded: BLUS30190.
+File Size: 15639904 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30190/BLUS30190_T9/95f933a1aaeecd46/UP1004-BLUS30190_00-PATCH00000000006-A0106-V0100-PE.pkg
+Error:  Skipping file, already exists. 15639904 bytes.
+Processing complete.
+
+Processing game BLUS30902.
+Error Game Folder Already Exists: BLUS30902
+Created XML Download Script: BLUS30902
+Running XML Download Script: BLUS30902
+Finished Script: BLUS30902
+XML Manifest successfully downloaded: BLUS30902.
+File Size: 29429024 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30902/BLUS30902_T2/5654e75e5b762597/UP1018-BLUS30902_00-MORTALKOMBATPTCH-A0107-V0100-PE.pkg
+Error:  Skipping file, already exists. 29429024 bytes.
+Processing complete.
+
+Processing game BLUS30246.
+Error Game Folder Already Exists: BLUS30246
+Created XML Download Script: BLUS30246
+Running XML Download Script: BLUS30246
+Finished Script: BLUS30246
+XML Manifest successfully downloaded: BLUS30246.
+File Size: 25532400 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30246/BLUS30246_T0/fbb55d3562daf434/UP0178-BLUS30246_00-MKDCTU2000000006-A0101-V0100-PE.pkg
+Error:  Skipping file, already exists. 25532400 bytes.
+Processing complete.
+
+Processing game BCUS98137.
+Error Game Folder Already Exists: BCUS98137
+Created XML Download Script: BCUS98137
+Running XML Download Script: BCUS98137
+Finished Script: BCUS98137
+XML Manifest successfully downloaded: BCUS98137.
+Processing complete.
+
+Processing game BLUS30565.
+Error Game Folder Already Exists: BLUS30565
+Created XML Download Script: BLUS30565
+Running XML Download Script: BLUS30565
+Finished Script: BLUS30565
+XML Manifest successfully downloaded: BLUS30565.
+File Size: 34008320 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30565/BLUS30565_T2/bd63d06448c8048a/UP0101-BLUS30565_00-SHGAMEPATCH00001-A0101-V0101-PE.pkg
+Error:  Skipping file, already exists. 34008320 bytes.
+Processing complete.
+
+Processing game BLUS303454.
+Created Game Folder: BLUS303454
+Created XML Download Script: BLUS303454
+Running XML Download Script: BLUS303454
+Finished Script: BLUS303454
+Error:  XML not found.  Retrying with 5 second time out.
+Created XML Download Script: BLUS303454
+Running XML Download Script: BLUS303454
+Finished Script: BLUS303454
+Error:  XML not found.  Retrying with 10 second time out.
+Created XML Download Script: BLUS303454
+Running XML Download Script: BLUS303454
+Finished Script: BLUS303454
+Error:  XML not found.  Retrying with 30 second time out.
+Created XML Download Script: BLUS303454
+Running XML Download Script: BLUS303454
+Finished Script: BLUS303454
+Error:  Cannot download XML update manifest for BLUS303454.
+Aborting BLUS303454.
+
+Processing game BLUS30030.
+Error Game Folder Already Exists: BLUS30030
+Created XML Download Script: BLUS30030
+Running XML Download Script: BLUS30030
+Finished Script: BLUS30030
+XML Manifest successfully downloaded: BLUS30030.
+Processing complete.
+
+Processing game BLUS360547.
+Created Game Folder: BLUS360547
+Created XML Download Script: BLUS360547
+Running XML Download Script: BLUS360547
+Finished Script: BLUS360547
+Error:  XML not found.  Retrying with 5 second time out.
+Created XML Download Script: BLUS360547
+Running XML Download Script: BLUS360547
+Finished Script: BLUS360547
+Error:  XML not found.  Retrying with 10 second time out.
+Created XML Download Script: BLUS360547
+Running XML Download Script: BLUS360547
+Finished Script: BLUS360547
+Error:  XML not found.  Retrying with 30 second time out.
+Created XML Download Script: BLUS360547
+Running XML Download Script: BLUS360547
+Finished Script: BLUS360547
+Error:  Cannot download XML update manifest for BLUS360547.
+Aborting BLUS360547.
+
+Processing game BLUS30418.
+Error Game Folder Already Exists: BLUS30418
+Created XML Download Script: BLUS30418
+Running XML Download Script: BLUS30418
+Finished Script: BLUS30418
+XML Manifest successfully downloaded: BLUS30418.
+File Size: 23720640 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30418/BLUS30418_T12/e601671e12efb929/UP1004-BLUS30418_00-PATCH000V9550908-A0108-V0101-PE.pkg
+Error:  Skipping file, already exists. 23720640 bytes.
+Processing complete.
+
+Processing game BLUS30270.
+Error Game Folder Already Exists: BLUS30270
+Created XML Download Script: BLUS30270
+Running XML Download Script: BLUS30270
+Finished Script: BLUS30270
+XML Manifest successfully downloaded: BLUS30270.
+File Size: 175115712 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30270/BLUS30270_T5/810b9c2921c1539f/UP0102-BLUS30270_00-PATCH005210A0104-A0200-V0100-PE.pkg
+Error:  Skipping file, already exists. 175115712 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30270/BLUS30270_T5/810b9c2921c1539f/PARAM.HIP
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM.HIP
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM.HIP
+Error: Download failed.  Aborting.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30270/BLUS30270_T5/810b9c2921c1539f/PARAM_00.HIP
+Error File Size: 292 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_00.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 292 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_00.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 292 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_00.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 292 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_00.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 292 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_00.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 292 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_00.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 292 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_00.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 292 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_00.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 292 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_00.HIP
+Error File Size: 292 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_00.HIP
+Error: Download failed.  Aborting.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30270/BLUS30270_T5/810b9c2921c1539f/PARAM_01.HIP
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_01.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_01.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_01.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_01.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_01.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_01.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_01.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_01.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_01.HIP
+Error File Size: 226 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_01.HIP
+Error: Download failed.  Aborting.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30270/BLUS30270_T5/810b9c2921c1539f/PARAM_02.HIP
+Error File Size: 286 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_02.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 286 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_02.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 286 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_02.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 286 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_02.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 286 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_02.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 286 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_02.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 286 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_02.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 286 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_02.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 286 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_02.HIP
+Error File Size: 286 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_02.HIP
+Error: Download failed.  Aborting.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30270/BLUS30270_T5/810b9c2921c1539f/PARAM_03.HIP
+Error File Size: 241 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_03.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 241 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_03.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 241 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_03.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 241 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_03.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 241 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_03.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 241 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_03.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 241 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_03.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 241 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_03.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 241 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_03.HIP
+Error File Size: 241 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_03.HIP
+Error: Download failed.  Aborting.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30270/BLUS30270_T5/810b9c2921c1539f/PARAM_04.HIP
+Error File Size: 260 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_04.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 260 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_04.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 260 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_04.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 260 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_04.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 260 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_04.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 260 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_04.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 260 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_04.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 260 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_04.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 260 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_04.HIP
+Error File Size: 260 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_04.HIP
+Error: Download failed.  Aborting.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30270/BLUS30270_T5/810b9c2921c1539f/PARAM_05.HIP
+Error File Size: 264 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_05.HIP
+Retrying Download. Attempt 2 out of 10.
+Error File Size: 264 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_05.HIP
+Retrying Download. Attempt 3 out of 10.
+Error File Size: 264 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_05.HIP
+Retrying Download. Attempt 4 out of 10.
+Error File Size: 264 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_05.HIP
+Retrying Download. Attempt 5 out of 10.
+Error File Size: 264 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_05.HIP
+Retrying Download. Attempt 6 out of 10.
+Error File Size: 264 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_05.HIP
+Retrying Download. Attempt 7 out of 10.
+Error File Size: 264 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_05.HIP
+Retrying Download. Attempt 8 out of 10.
+Error File Size: 264 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_05.HIP
+Retrying Download. Attempt 9 out of 10.
+Error File Size: 264 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_05.HIP
+Error File Size: 264 should be 175115712.
+Error Download Failed: D:\Installed\DBP\Projects\PS3UpdateDownloader\BLUS30270\PARAM_05.HIP
+Error: Download failed.  Aborting.
+Processing complete.
+
+Processing game BLUS30001.
+Error Game Folder Already Exists: BLUS30001
+Created XML Download Script: BLUS30001
+Running XML Download Script: BLUS30001
+Finished Script: BLUS30001
+XML Manifest successfully downloaded: BLUS30001.
+File Size: 18604096 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30001/BLUS30001_T0/7c67f3e247831279/UP0700-BLUS30001_00-STEREO3DPATCHPAC-A0101-V0300-PE.pkg
+Error:  Skipping file, already exists. 18604096 bytes.
+Processing complete.
+
+Processing game BLUS30342.
+Error Game Folder Already Exists: BLUS30342
+Created XML Download Script: BLUS30342
+Running XML Download Script: BLUS30342
+Finished Script: BLUS30342
+XML Manifest successfully downloaded: BLUS30342.
+File Size: 21118656 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30342/BLUS30342_T0/7680108c24be00dc/UP0177-BLUS30342_00-SONICRACINGPAT01-A0101-V0100-PE.pkg
+Error:  Skipping file, already exists. 21118656 bytes.
+Processing complete.
+
+Processing game BLUS30259.
+Error Game Folder Already Exists: BLUS30259
+Created XML Download Script: BLUS30259
+Running XML Download Script: BLUS30259
+Finished Script: BLUS30259
+XML Manifest successfully downloaded: BLUS30259.
+Processing complete.
+
+Processing game BLUS30160.
+Error Game Folder Already Exists: BLUS30160
+Created XML Download Script: BLUS30160
+Running XML Download Script: BLUS30160
+Finished Script: BLUS30160
+XML Manifest successfully downloaded: BLUS30160.
+File Size: 16372320 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30160/BLUS30160_T11/8e5d2a59b815f70e/UP0700-BLUS30160_00-SC4PATCHUS080903-A0103-V0100-PE.pkg
+Error:  Skipping file, already exists. 16372320 bytes.
+Processing complete.
+
+Processing game BLUS30534.
+Error Game Folder Already Exists: BLUS30534
+Created XML Download Script: BLUS30534
+Running XML Download Script: BLUS30534
+Finished Script: BLUS30534
+XML Manifest successfully downloaded: BLUS30534.
+File Size: 13705184 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30534/BLUS30534_T0/4c31037e61b36e63/UP1010-BLUS30534_00-PATCH00000000001-A0101-V0100-PE.pkg
+Error:  Skipping file, already exists. 13705184 bytes.
+Processing complete.
+
+Processing game BLUS30359.
+Error Game Folder Already Exists: BLUS30359
+Created XML Download Script: BLUS30359
+Running XML Download Script: BLUS30359
+Finished Script: BLUS30359
+XML Manifest successfully downloaded: BLUS30359.
+File Size: 16213920 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30359/BLUS30359_T3/b3e37de888f867f0/UP0700-BLUS30359_00-TEKKEN6PATCH0000-A0103-V0100-PE.pkg
+Error:  Skipping file, already exists. 16213920 bytes.
+Processing complete.
+
+Processing game BLUS31374.
+Error Game Folder Already Exists: BLUS31374
+Created XML Download Script: BLUS31374
+Running XML Download Script: BLUS31374
+Finished Script: BLUS31374
+XML Manifest successfully downloaded: BLUS31374.
+File Size: 73846656 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS31374/BLUS31374_T4/574ff446b0e45b72/UP1003-BLUS31374_00-DISCPATCHTEWNA05-A0105-V0100-PE.pkg
+Error:  Skipping file, already exists. 73846656 bytes.
+Processing complete.
+
+Processing game BLUS30353.
+Error Game Folder Already Exists: BLUS30353
+Created XML Download Script: BLUS30353
+Running XML Download Script: BLUS30353
+Finished Script: BLUS30353
+XML Manifest successfully downloaded: BLUS30353.
+File Size: 809157488 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30353/BLUS30353_T1/6b2a1b9b7a0568ff/UP4002-BLUS30353_00-DISCPATCHDATA001-A0101-V0100-PE.pkg
+Error:  Skipping file, already exists. 809157488 bytes.
+File Size: 12783808 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30353/BLUS30353_T1/6b2a1b9b7a0568ff/UP4002-BLUS30353_00-DISCPATCHDATA001-A0102-V0100-PE.pkg
+Error:  Skipping file, already exists. 12783808 bytes.
+Processing complete.
+
+Processing game BLUS30224.
+Error Game Folder Already Exists: BLUS30224
+Created XML Download Script: BLUS30224
+Running XML Download Script: BLUS30224
+Finished Script: BLUS30224
+XML Manifest successfully downloaded: BLUS30224.
+File Size: 16161184 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30224/BLUS30224_T0/5cfc9a74a1f7a5ce/UP0776-BLUS30224_00-US1100TROPHY1000-A0101-V0100-PE.pkg
+Error:  Skipping file, already exists. 16161184 bytes.
+Processing complete.
+
+Processing game BLUS98123.
+Created Game Folder: BLUS98123
+Created XML Download Script: BLUS98123
+Running XML Download Script: BLUS98123
+Finished Script: BLUS98123
+Error:  XML not found.  Retrying with 5 second time out.
+Created XML Download Script: BLUS98123
+Running XML Download Script: BLUS98123
+Finished Script: BLUS98123
+Error:  XML not found.  Retrying with 10 second time out.
+Created XML Download Script: BLUS98123
+Running XML Download Script: BLUS98123
+Finished Script: BLUS98123
+Error:  XML not found.  Retrying with 30 second time out.
+Created XML Download Script: BLUS98123
+Running XML Download Script: BLUS98123
+Finished Script: BLUS98123
+Error:  Cannot download XML update manifest for BLUS98123.
+Aborting BLUS98123.
+
+Processing game BLUS30299.
+Error Game Folder Already Exists: BLUS30299
+Created XML Download Script: BLUS30299
+Running XML Download Script: BLUS30299
+Finished Script: BLUS30299
+XML Manifest successfully downloaded: BLUS30299.
+File Size: 126589584 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30299/BLUS30299_T1/200766c760daac78/UP1005-BLUS30299_00-GAMEUPDATEPATCH1-A0120-V0101-PE.pkg
+Error:  Skipping file, already exists. 126589584 bytes.
+Processing complete.
+
+Processing game BLUS30086.
+Error Game Folder Already Exists: BLUS30086
+Created XML Download Script: BLUS30086
+Running XML Download Script: BLUS30086
+Finished Script: BLUS30086
+XML Manifest successfully downloaded: BLUS30086.
+File Size: 96781920 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30086/BLUS30086_T5/6d9cf221b18079d6/UP0178-BLUS30086_00-UNREALTOUR3BLACK-A0200-V0101-PE.pkg
+Error:  Skipping file, already exists. 96781920 bytes.
+Processing complete.
+
+Processing game BLUS30269.
+Error Game Folder Already Exists: BLUS30269
+Created XML Download Script: BLUS30269
+Running XML Download Script: BLUS30269
+Finished Script: BLUS30269
+XML Manifest successfully downloaded: BLUS30269.
+Processing complete.
+
+Processing game BLUS30943.
+Error Game Folder Already Exists: BLUS30943
+Created XML Download Script: BLUS30943
+Running XML Download Script: BLUS30943
+Finished Script: BLUS30943
+XML Manifest successfully downloaded: BLUS30943.
+File Size: 58729104 bytes.
+Downloading: http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30943/BLUS30943_T13/8511b2af6e3dad89/UP1001-BLUS30943_00-PATCHTU000000000-A0104-V0100-PE.pkg
+Error:  Skipping file, already exists. 58729104 bytes.
+Processing complete.
+
+Game Processing Failure Report:
+BLUS31068
+BLUSbles0
+BLUS30110
+BLUSff13
+BLUS30416
+BCUS90085
+BLUS3052
+BCUS98280
+BCUS31212
+BLUS83009
+BLUS303454
+BLUS360547
+BLUS98123
+Complete failures: 13
+
+File Download Failure Report:
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS31402/BLUS31402_T0/e18da62da42a6bb7/PARAM.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS31402/BLUS31402_T0/e18da62da42a6bb7/PARAM_02.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS31402/BLUS31402_T0/e18da62da42a6bb7/PARAM_04.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98229/BCUS98229_T0/4303537435ef6f5b/PARAM.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98229/BCUS98229_T0/4303537435ef6f5b/PARAM_02.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BCUS98229/BCUS98229_T0/4303537435ef6f5b/PARAM_03.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30109/BLUS30109_T0/aa57739cfb3617fe/PARAM.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30109/BLUS30109_T0/aa57739cfb3617fe/PARAM_01.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30109/BLUS30109_T0/aa57739cfb3617fe/PARAM_02.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30109/BLUS30109_T0/aa57739cfb3617fe/PARAM_03.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30109/BLUS30109_T0/aa57739cfb3617fe/PARAM_04.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30109/BLUS30109_T0/aa57739cfb3617fe/PARAM_05.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30270/BLUS30270_T5/810b9c2921c1539f/PARAM.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30270/BLUS30270_T5/810b9c2921c1539f/PARAM_00.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30270/BLUS30270_T5/810b9c2921c1539f/PARAM_01.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30270/BLUS30270_T5/810b9c2921c1539f/PARAM_02.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30270/BLUS30270_T5/810b9c2921c1539f/PARAM_03.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30270/BLUS30270_T5/810b9c2921c1539f/PARAM_04.HIP
+http://b0.ww.np.dl.playstation.net/tppkg/np/BLUS30270/BLUS30270_T5/810b9c2921c1539f/PARAM_05.HIP
+Download failures: 19
+
+Processing complete. 397 seconds.
