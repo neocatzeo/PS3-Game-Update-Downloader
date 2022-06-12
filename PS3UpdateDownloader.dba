@@ -72,7 +72,8 @@ function File_Download(oUrl$, oPath$, oFileSize)
       Repeat
          `Check if file exists
          If File Exist(oFileName$) = 1
-            If File Size(oFileName$) = oFileSize
+            `compare file sizes match.  or -1 size means no size was given so pass the check.
+            If File Size(oFileName$) = oFileSize || (oFileSize = -1 && File Size(oFileName$) > 0)
                `Skip the file as the existing file appears to be present and complete.
                Log_Update("Error:  Skipping file, already exists. " + STR$(oFileSize) + " bytes." )
                `Set flags
@@ -91,8 +92,8 @@ function File_Download(oUrl$, oPath$, oFileSize)
          DELETE DLL 1
          `Determine if file exists
          If File Exist(oFileName$) = 1
-            `Determine if file size matches size in XML Manifest.
-            If File Size(oFileName$) = oFileSize
+            `Determine if file size matches size in XML Manifest.  Or XML manifest provided no size + downloaded size is greater than zero.
+            If File Size(oFileName$) = oFileSize || (oFileSize = -1 && File Size(oFileName$) > 0)
                `Set flags
                retVal = 1
                oFlag = 100
@@ -412,45 +413,68 @@ Function StrToInt(oString$)
    Next i
 Endfunction retVal
 
-
+`parses the XML manifest, and rips out both file sizes and urls.
 Function XML_ParseFile(oGameCode$)
+   `Setup variables
    Local oByte as Byte
    lastFiveChars$ = ""
    lastSixChars$ = ""
+   oFileSize = -1
+   
+   `if xml file exists
    oXMLFile$ = rootPath + "\" + oGameCode$ + "\" + oGameCode$ + ".xml"
    If File Exist(oXMLFile$) = 1
       Open to Read 1, oXMLFile$
          While File End(1) = 0
+            `read one character from the xml
             Read Byte 1, nByte
             nChar$ = CHR$(nByte)
-            `Log_Update(nChar$)
             
+            `Store recent characters, so we can checl for expected tags
             lastFiveChars$ = RIGHT$(lastFiveChars$, 4) + nChar$
             lastSixChars$ = RIGHT$(lastSixChars$, 5) + nChar$
-            If lastFiveChars$ = "url=" + CHR$(34) Then XML_ParseURL(rootPath + "\" + oGameCode$, oFileSize)
+            
+            `if a url tag is detected, call a function that reads the following characters as a url.
+            If lastFiveChars$ = "url=" + CHR$(34)
+               XML_ParseURL(rootPath + "\" + oGameCode$, oFileSize)
+               `reset the file size in case xml doesn't report file sizes before urls. otherwise follow up urls will be matched with wrong file size.
+               oFileSize = -1
+            EndIf
+            
+            `if a file size tag is detected then call a function that reads the following characters as a file size.
             If lastSixChars$ = "size=" + CHR$(34) Then oFileSize = XML_ParseSize()
          EndWhile
       Close File 1
    EndIf   
 EndFunction
 
+`This function will parse the XML manifest, reading characters as a url.  assumes file is open already, and a url tag was detected.  Ends when a closing " is found.
 Function XML_ParseURL(oPath$, oFileSize)
+   `setup vairables
    oURL$ = ""
+   
+   `Loop until there is no characters left in the file.
    While File End(1) = 0
+      `read a character from the file
       Read Byte 1, nByte
       nChar$ = CHR$(nByte)
+      `If character is not a " then add it to the url string.  " is meant to be a terminating character.
       If nChar$ <> CHR$(34)
          oURL$ = oURL$ + nChar$
       Else
+         `A " terminating character was found.  If the url string is not empty, then attempt to download the file url.  otherwise error
          If oURL$ <> ""
-            `Log_Update("Downloading: " + oURL$)
+            `Download file url
             File_Download(oURL$, oPath$, oFileSize)
          Else
+            `log error as file url was empty.
             Log_Update("XML Error:  Empty Download string found.")
          EndIf
+         `exit function early.  url was processed completely.
          ExitFunction
       EndIf
    EndWhile
+   `The end of the file was reached.  Log the error.  URL didn't have a terminating " character.  
    Log_Update("XML Error Invalid URL: " + CHR$(34) + oURL$ + CHR$(34))
 EndFunction
 
