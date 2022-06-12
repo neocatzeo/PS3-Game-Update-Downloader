@@ -5,7 +5,7 @@ project name=PS3UpdateDownloader
 
 ; **** source file information ****
 main=PS3UpdateDownloader.dba
-LineMain=307
+LineMain=53
 
 ; **** Executable Information  ***
 ; build types: exe, media, installer, alone
